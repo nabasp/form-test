@@ -7,7 +7,7 @@ import {
   daysOptionsList,
   yearsOptionsList,
   monthOptionsList,
-} from "./constants";
+} from "../constants";
 
 function StepOne() {
   const [activeSection, setActiveSection] = useState("one");

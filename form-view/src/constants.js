@@ -1,4 +1,6 @@
-export const baseUrl = process.env.REACT_APP__API_BASE_URL;;
+//Replace with API BASE URL
+export const baseUrl = "http://127.0.0.1:8000/api";
+
 export const daysOptionsList = Array.from({ length: 31 }, (_, index) => index + 1);
 export const monthOptionsList = [
   "January",

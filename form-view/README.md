@@ -1,3 +1,6 @@
+# Change Base API URL From constants
+ export const baseUrl = "http://127.0.0.1:8000/api";
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

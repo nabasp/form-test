@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import "../assets/main.css";
 import axios from "axios";
-import { baseUrl } from "./constants";
+import { baseUrl } from "../constants";
 
 function StepTwo() {
   const { userId } = useParams();
